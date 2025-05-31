@@ -23,9 +23,9 @@
 
         const Datas=[];
         
-        app.get('/submit' , (req,res)=>{
+        app.post('/submit' , (req,res)=>{
 
-            const{name,email,feedback } = req.query;
+            const{name,email,feedback } = req.body;
             const dataObj={name , email , feedback};
             Datas.push(dataObj);//pushing the object
 
