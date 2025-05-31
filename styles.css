@@ -1,0 +1,133 @@
+body{
+    
+    color: white;
+    background: linear-gradient(135deg, #0b181d, #111d20e2, #141041, #1d192f);
+}
+span{
+    padding-left : 40px;
+}
+
+#portfolio{
+    padding-right:15px;
+    font-family: Satisfy, cursive;
+    background: linear-gradient(#070f12, #141e37 , #191629)text;
+    cursor: pointer;    
+}
+#portfolio:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
+}
+#head{
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.rule{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+.block{
+    border-style:solid;
+    border-radius: 5%;
+    border-color: azure;
+    height: 500px;
+    width: 300px;
+    box-shadow: 2px 4px 8px 2px rgba(95, 69, 33, 0.656);
+    transition: 0.3s;
+    background : linear-gradient(black , rgba(21, 11, 49, 0.382));
+}
+#cards{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 80px;
+}
+.block:hover{
+    background: linear-gradient(#141e37 , #191629);
+    box-shadow: 10px 11px 20px 0 rgba(113, 81, 40, 0.766);
+    transform: scale(1.04);
+    cursor: pointer;
+}
+/* img{
+    height:500px;
+    width:300px;
+    object-fit:fill;
+    border-radius: 5%;
+    cursor: pointer;
+} */
+#about{
+    background : linear-gradient(black , rgba(21, 11, 49, 0.382));
+}
+
+#aboutSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style:dashed;
+    border-radius: 3%;
+    border-color: azure;
+    height: 25em;
+    width: 70em;
+    background : linear-gradient(rgba(0, 0, 0, 0.551) , rgba(21, 11, 49, 0.382));
+}
+#aboutSection:hover{
+
+    box-shadow: 10px 11px 20px 0 rgba(113, 81, 40, 0.766);
+    transition: 0.2s;
+    animation: ease-in-out;
+    transform: scale(1.01);
+    
+}
+
+input{
+    width: 500px ;
+    height:32.5px;
+    border-radius: 10px;
+    background: rgba(25, 25, 22, 0.206);
+    color: white;
+    padding: 10px 5px ;
+}
+label{
+    font-size: 20px;
+    
+}
+
+form{
+    background: rgba(18, 17, 17, 0.658);
+    border-radius: 10%;
+    box-shadow:3px 3px 5px 3px #e12020b1;
+    background-color: linear-gradient(#e12020b1 rgba(0, 255, 38, 0.369) white);
+}
+form:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+button{
+    width:200px;
+    height: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+button:hover{
+    transform: scale(1.02);
+    cursor:pointer;
+    transition:0.3s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form span{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
