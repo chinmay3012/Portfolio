@@ -3,7 +3,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     color: white;
-    background: linear-gradient(135deg, #0b181d, #111d20e2, #141041, #1d192f);
+    background: linear-gradient(135deg, #010304, #050809, #02010def, #000000e3);
 }
 span{
     padding-left : 40px;
