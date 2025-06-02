@@ -19,6 +19,18 @@ span{
     transform: scale(1.07);
     transition: 0.2s;
 }
+#github:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
+}
+#linkedin:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
+}
+#contact:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
+}
 #head{
     display: flex;
     height: 80px;
