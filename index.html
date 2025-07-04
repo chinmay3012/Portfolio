@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+  <title>Chinmay Mehrotra - Portfolio</title>
+</head>
+<body class=" text-white ">
+    <nav class="fixed bg-black w-full flex">
+    <div class="flex mx-2">
+            <a href="#hero" class="hover:scale-105 transition-transform">
+                <div class=" bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-0.5 m-1 bg-clip-text
+            font-bold text-transparent my-[10px] w-max">
+            <span class="text-[20px] md:text-4xl">Chinmay Mehrotra</span>
+            </div></a>
+
+            <div class="hidden md:block md:bg-amber-50 content-center rounded-full w-max h-max m-5 ">
+                <div class=" font-semibold bg-gradient-to-r from-green-400 to-blue-500 
+                text-transparent bg-clip-text text-sm p-1 m-1 mx-[60px] content-center space-x-3.5  md:space-x-15 md:text-2xl ">
+                    <a href="#about"  class="hover:text-indigo-400 hover:underline">About</a>
+                    <a href="#projects" class="hover:text-indigo-400 hover:underline">Projects</a>
+                    <a href="https://drive.google.com/file/d/1onz5IhE9KHtKa6pOsyaOfa-bHqd0UbRs/view?usp=sharing" target="_blank" class="hover:text-indigo-400 hover:underline">Resume</a>
+                    <a href="https://www.linkedin.com/in/chinmay-mehrotra-bb5648213/" target="_blank" class="hover:text-indigo-400 hover:underline">LinkedIn</a>
+                    <a href="https://github.com/chinmay3012" class="hover:text-indigo-400 hover:underline">GitHub</a>
+                    <a href="#contact" class="hover:text-indigo-400 hover:underline">Contact</a>
+                </div>
+            </div>
+    </div>
+
+    <div>
+      <button id="menu-btn" class="md:hidden p-0.5 mx-35 my-[10px] w-6 h-6 fill-current flex-col space-y-4 
+      md:flex-row md:space-y-0 md:space-x-6 transition-all duration-600 ease-out">
+      <span id="menu-icon">&#8801;</span>
+      <span id="close-icon" class="hidden">&#10005;</span>
+    </button>
+    </div>
+   
+</nav>
+<div id="menu" class="hidden flex  space-y-4 bg-black text-white p-4 sticky top-10 left-0 w-full z-40 md:hidden space-x-10">
+  <div class="flex flex-col space-y-3">
+    <a href="#about" class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent hover:text-yellow-300">About</a>
+    <a href="#skills" class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent hover:text-yellow-300">Resume</a>
+    <a href="#projects" class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent hover:text-yellow-300">Projects</a>
+    <a href="#contact" class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent hover:text-yellow-300">Contact</a>
+  </div>
+  <div class="flex flex-col space-y-2">
+    <a href="https://www.linkedin.com/in/chinmay-mehrotra-bb5648213/" target="_blank" class="hover:text-indigo-400 ">LinkedIn</a>
+    <a href="https://github.com/chinmay3012" class="hover:text-indigo-400 ">GitHub</a>
+    <a href="#contact" class="hover:text-indigo-400 ">Contact</a>
+  </div>
+  
+</div>
+
+<!--Hero Section-->
+<section id="hero" class="w-full h-screen flex flex-col justify-center items-center text-center pt-20 bg-gradient-to-b from-indigo-950 to-black ">
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">Hi, I'm Chinmay 👋</h1>
+    <p class="text-xl md:text-2xl">JAVA | WEB Developer | Python | ML Engineer | B.tech IT @ <span class="text-yellow-300 font-extrabold">MUJ</span></p>
+    <a href="#projects" class="mt-8 inline-block bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-full text-lg">View My Work</a>
+    <br><br><br><br><div class="loader"></div>
+  </section>
+ 
+
+
+  <!--Service Section-->
+  <section id="services" class="bg-black py-20 px-6 flex-col justify-center  ">
+    <div class="text-white space-y-7 max-w-4xl mx-auto">
+    <h2 class="text-2xl md:text-4xl font-bold text-center border-b-4 border-yellow-400 inline-block">Services</h2>
+    <ul class="text-white space-y-7">
+        <li class="text-lg md:text-xl ">Personal & Business Portfolio Websites</li>
+    
+        <li class="text-lg md:text-xl ">UI/UX Applications</li>
+   
+        <li class="text-lg md:text-xl ">Landing Pages</li>
+    
+        <li class="text-lg md:text-xl ">Custom UI Components</li>
+    
+        <li class="text-lg md:text-xl ">Website Deployment & Hosting Setup</li>
+    
+    
+        <li class="text-lg md:text-xl">Git/GitHub Support</li>
+    
+    </ul>
+</div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 bg-black">
+    <div class="max-w-4xl mx-auto">
+      <h2 class= "text-2xl md:text-4xl font-bold mb-6 border-b-4 border-yellow-400 inline-block">About Me</h2>
+      <p class="text-smtext-xl md: md:text-lg leading-relaxed ">I am a web developer with experience in modern frontend technologies.An engineering undergraduate passionate about leveraging technology to create impactfol solutions. I have experience in web development, machine learning, and full-stack applications, and I’m always eager to take on new challenges.<br>
+        <br><span class="text-amber-50 font-bold text-2xl">Skills</span><br>
+        
+        <span class="text-yellow-300 font-bold">Programming languages:</span> Java, JavaScript, C++<br>
+        <span class="text-yellow-300 font-bold">Web technologies:</span> HTML, CSS, React (with Vite), Node.js, Express.js, MongoDB<br>
+        <span class="text-yellow-300 font-bold">Tools & frameworks:</span> Git, GitHub, npm, Vercel<br>
+        <span class="text-yellow-300 font-bold">Concepts:</span> Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), REST APIs, sentiment analysis, authentication & security.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-15 bg-slate-950 mb-6 ">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-12 text-center border-b-4 border-yellow-400 inline-block">My Projects</h2>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Card -->
+            <div class="border-4 border-b-gray-50 bg-gray-800 rounded-lg shadow hover:shadow-xl p-6 hover:scale-105 transition-transform ">
+                <a href="https://github.com/chinmay3012/course-selling-WebApp" target="_blank"><img src="https://media.licdn.com/dms/image/sync/v2/D5627AQFdd4WKMo39iA/articleshare-shrink_160/B56ZfGXYEDH8Ao-/0/1751379707059?e=1752015600&v=beta&t=URpmEREHw9G-C9Mhb5qlYFMRa-2iabDQHYi6mtYOTRg" alt="Project Screenshot" class="rounded mb-4">
+                <h3 class="text-xl md:text-2xl font-bold mb-2">Backend For Course-Sellers</h3>
+                <p class="text-sm md:text-xl text-gray-300">MongoDB and Mongoose Integration Project This repository contains a Node.js project that integrates database management. It defines schemas and models enabling efficient data handling and storage.
+                </p></a>
+            </div>
+            <div class="border-4 border-b-gray-50 bg-gray-800 rounded-lg shadow hover:shadow-xl p-6 hover:scale-105 transition-transform">
+                <a href="https://chinmay3012.github.io/ToDo/" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D562DAQEw014tr7tWkQ/profile-treasury-image-shrink_160_160/B56ZfGaJGQHUAk-/0/1751380432332?e=1752015600&v=beta&t=fU4l8U8NmMXkMx1L0PviyncBtNvK6PfGbOFrihEyyb0" alt="Project Screenshot" class="rounded mb-4">
+                <h3 class="text-xl md:text-2xl font-bold mb-2">
+                    ToDo List Web-Application</h3>
+                <p class="text-sm md:text-xl text-gray-300">MongoDB and Mongoose Integration Project This repository contains a Node.js project that integrates database management. It defines schemas and models enabling efficient data handling and storage.
+                </p></a>
+            </div>
+            <div class="border-4 border-b-gray-50 bg-gray-800 rounded-lg shadow hover:shadow-xl p-6 hover:scale-105 transition-transform">
+                <a href="https://github.com/chinmay3012/HousePricePrediction" target="_blank"><img src="https://media.licdn.com/dms/image/sync/v2/D5627AQHy4nTn2EMGUw/articleshare-shrink_160/B56ZfGXoayGoAk-/0/1751379774844?e=1752015600&v=beta&t=L3k4DRYVuG9uU36tPdvPLh9XVaco6V1B5WIFMlhPqQc" alt="Project Screenshot" class="rounded mb-4">
+                <h3 class="text-xl md:text-2xl font-bold mb-2">
+                    
+Housing Price Prediction Model</h3>
+                <p class="text-sm md:text-xl text-gray-300">Based on Linear Regression which is a part of Superviser ML created a House Price Prediction model which is trained on the California housing dataset as available on kaggle.
+
+                </p></a>
+            </div>
+            <div class="border-4 border-b-gray-50 bg-gray-800 rounded-lg shadow hover:shadow-xl p-6 hover:scale-105 transition-transform">
+                        <a href="https://github.com/chinmay3012/passwordGenerator-Project" target="_blank"><img src="" alt="Project Screenshot" class="rounded mb-4">
+                        <h3 class="text-xl md:text-2xl font-bold mb-2">Password Generator</h3>
+                        <p class="text-sm md:text-xl text-gray-300">An application of React to generate customisable password for you , which include customising length , special strings , numbers.
+                    </p></a>
+                </div>
+            </div>
+    </div>
+  </section>
+   
+   <section id="contact" class="py-20 px-6 bg-black">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6 border-b-4 border-yellow-400 inline-block">Contact Me</h2>
+      <p class="mb-8 text-lg">Let's build something together!</p>
+      <a href="mailto:mehrotrachinmay6@gmail.com" class="inline-block bg-indigo-600 hover:bg-indigo-700 hover:scale-105 transition-transform px-8 py-4 rounded-full text-lg">Email Me</a>
+    </div>
+  </section>
+
+ 
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    &copy; 2025 Chinmay Mehrotra. All rights reserved.
+  </footer>
+</body>
+<script>
+  const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+const menuIcon = document.getElementById("menu-icon");
+const closeIcon = document.getElementById("close-icon");
+
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+  menuIcon.classList.toggle("hidden");
+  closeIcon.classList.toggle("hidden");
+});
+
+</script>
+</html>
