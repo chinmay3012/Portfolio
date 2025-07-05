@@ -161,5 +161,15 @@ menuBtn.addEventListener("click", () => {
   closeIcon.classList.toggle("hidden");
 });
 
+const menuLinks = document.querySelectorAll('a');
+menuLinks.forEach(link => {
+  link.addEventListener("click", ()=>{
+    menu.classList.add("hidden");
+    menuIcon.classList.remove("hidden");
+    closeIcon.classList.add("hidden");
+    
+  })
+})
+
 </script>
 </html>
